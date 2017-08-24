@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ramudugenou/fetch"
+	"github.com/ramuchu/fetch"
 
 	"net/http"
 	_ "net/http/pprof"
