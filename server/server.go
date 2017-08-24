@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/gorilla/websocket"
-	"github.com/kalokng/fetch"
+	"github.com/ramuchu/fetch"
 
 	_ "net/http/pprof"
 )
