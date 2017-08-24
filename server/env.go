@@ -3,13 +3,13 @@ package main
 import "os"
 
 func getIP() string {
-	return os.Getenv("OPENSHIFT_GO_IP")
+	return ""
 }
 
 func getPort() string {
-	s := os.Getenv("OPENSHIFT_GO_PORT")
+	s := os.Getenv("PORT")
 	if s == "" {
-		return "8000"
+		return "8080"
 	}
 	return s
 }
